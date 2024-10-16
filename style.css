@@ -1,0 +1,12 @@
+.face{
+    position: absolute;
+    background-color: green;
+}
+.back{
+    position: absolute;
+    background-color: yellow;
+}
+.back:target{
+    z-index:-1;
+
+}
